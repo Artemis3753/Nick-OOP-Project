@@ -1,10 +1,6 @@
 # Project: Dine-In Digital, A Restaurant Ordering System
-- Version 0.82
-  MS4 Overview posted
-- Version 0.9
-  MS4 Open
-- Version 0.91
-  Method names added.
+
+- Milestone 5 is now open for submission 
  
 ## Objective 
 In this project, you will build an application that enables waiters to take customer orders for food and drinks and generate a bill upon the order's completion. Each bill will have a unique number, and once an order is finalized, the bill will be saved in a separate file named according to its bill number.
@@ -18,7 +14,7 @@ In this project, you will build an application that enables waiters to take cust
 | [MS2](#milestone-2) | V1.0 | open | [Video](https://youtu.be/3TFA6RT0O4U) |
 | [MS3](#milestone-3) | V1.1  | open<br />correct_output.txt corrected  | [Video](https://youtu.be/YqiOuSdU4zA) |
 | [MS4](#milestone-4) | V1.0  | open | [Video](https://youtu.be/n-hnBp8Otms) |
-| [MS5](#milestone-5-the-final-milestone) | V1.0 | Preview |  |
+| [MS5](#milestone-5-the-final-milestone) | V1.0 | Open |  |
 
 For this project, you will develop an application that enables waiters to take customer orders for food and drinks, and generate a bill upon completion of the order.
 
@@ -983,7 +979,7 @@ Method name: `listFoods`
 ---
 
 #### **List Drinks Method** *(does not modify the class)*  
-Method name: `ListDrinks`
+Method name: `listDrinks`
 - **Description:**  
   - Works exactly like the `List Food` method but operates on the `drinks` dynamic array.  
 
@@ -1192,7 +1188,7 @@ Your program should use the `Menu` and `Ordering` modules to create a fully func
 
 6. **List Drinks**  
    - When the "List Drinks" option is selected:  
-     - Call the `ListDrinks` method of the `Ordering` object to display all drink items.  
+     - Call the `listDrinks` method of the `Ordering` object to display all drink items.  
 
 ---
 
@@ -1282,29 +1278,64 @@ The program should continue prompting the user until a valid integer within the 
 
 # MS5 Submission
 
-## MS51 Submission 
+## MS51 Submission  
 
-**List Food and Drink**
+**List Food and Drink**  
 
-### 51 Data Entry
+> :warning: **IMPORTANT:** In Milestone 4, the `listDrinks()` method in the `Ordering` class was mistakenly written as `"ListDrinks()"` with an uppercase "L". This typo has been corrected in Milestone 5. Before submission, **rename it to `listDrinks` with a lowercase "L"**.  
 
-TBA
+---
 
-### 51 Expected output
+### MS51 Tester Program  
 
-TBA
+**No tester program**; use your own `main.cpp`.  
 
-### 51 Submission
+---
 
-Upload your source code (**Utils.cpp, Utils.h, Menu.h , Menu.cpp, Billable.h, Billable.cpp, Drink.h, Drink.cpp, Food.h, Food.cpp, Ordering.h, Ordering.cpp and main.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler [as shown in the introduction](#compiling-and-testing-your-program) and make sure that everything works properly.
+### MS51 Data Entry  
 
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m51
-```
-and follow the instructions.
+```text
+4 <ENTER>
+5 <ENTER>
+0 <ENTER>
+```  
 
-- *2??* is replaced with your subject code
+---
+
+### MS51 Expected Output  
+
+[m51_correct_output.txt](prj/m51_correct_output.txt)  
+
+---
+
+### MS51 Submission Process  
+
+To submit your work:  
+
+1. **Upload Source Code**:  
+   Ensure you upload the following files to your `matrix` account:  
+   - **Utils.cpp, Utils.h**  
+   - **Menu.h, Menu.cpp**  
+   - **Billable.h, Billable.cpp**  
+   - **Drink.h, Drink.cpp**  
+   - **Food.h, Food.cpp**  
+   - **Ordering.h, Ordering.cpp**  
+   - **main.cpp**  
+   - **foods.csv, drinks.csv**  
+
+2. **Compile and Test**:  
+   Compile and run your code using the `g++` compiler as outlined in the [introduction](#compiling-and-testing-your-program). Ensure your program runs correctly and matches the expected output.  
+
+3. **Submit Your Work**:  
+   From your `matrix` account, run the following command (replace `profname.proflastname` with your professor’s Seneca user ID):  
+
+   ```bash
+   ~profname.proflastname/submit 2??/prj/m51
+   ```  
+   - *2??* is replaced with your subject code
+
+   Follow the instructions provided by the submission command.  
+
 
 ### The submit program's options:
 ```bash
@@ -1331,25 +1362,69 @@ and follow the instructions.
 
 **Order Drink**
 
-### 52 Data Entry
+---
 
-TBA
+### MS52 Tester Program  
 
-### 52 Expected output
+**No tester program**; use your own `main.cpp`.  
 
-TBA
+---
 
-### 52 Submission
+### MS52 Data Entry  
 
-Upload your source code (**Utils.cpp, Utils.h, Menu.h , Menu.cpp, Billable.h, Billable.cpp, Drink.h, Drink.cpp, Food.h, Food.cpp, Ordering.h, Ordering.cpp and main.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler [as shown in the introduction](#compiling-and-testing-your-program) and make sure that everything works properly.
+```text
+1 <ENTER>
+2 <ENTER>
+2 <ENTER>
+3 <ENTER>
+2 <ENTER>
+0 <ENTER>
+2 <ENTER>
+1 <ENTER>
+0 <ENTER>
+2 <ENTER>
+3 <ENTER>
+1 <ENTER>
+0 <ENTER>
+0 <ENTER> <-- this is the last execution line check by the submitter, you can exit the program anyway you like after this
+1 <ENTER>
+```  
+---
 
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m52
-```
-and follow the instructions.
+### MS52 Expected Output  
 
-- *2??* is replaced with your subject code
+[m52_correct_output.txt](prj/m52_correct_output.txt)  
+
+---
+
+### MS52 Submission Process  
+
+To submit your work:  
+
+1. **Upload Source Code**:  
+   Ensure you upload the following files to your `matrix` account:  
+   - **Utils.cpp, Utils.h**  
+   - **Menu.h, Menu.cpp**  
+   - **Billable.h, Billable.cpp**  
+   - **Drink.h, Drink.cpp**  
+   - **Food.h, Food.cpp**  
+   - **Ordering.h, Ordering.cpp**  
+   - **main.cpp**  
+   - **foods.csv, drinks.csv**  
+
+2. **Compile and Test**:  
+   Compile and run your code using the `g++` compiler as outlined in the [introduction](#compiling-and-testing-your-program). Ensure your program runs correctly and matches the expected output.  
+
+3. **Submit Your Work**:  
+   From your `matrix` account, run the following command (replace `profname.proflastname` with your professor’s Seneca user ID):  
+
+   ```bash
+   ~profname.proflastname/submit 2??/prj/m52
+   ```  
+   - *2??* is replaced with your subject code
+
+   Follow the instructions provided by the submission command.  
+
 
 ### The submit program's options:
 ```bash
@@ -1375,25 +1450,66 @@ and follow the instructions.
 
 **Order Food**
 
-### 53 Data Entry
+---
 
-TBA
+### MS53 Tester Program  
 
-### 53 Expected output
+**No tester program**; use your own `main.cpp`.  
 
-TBA
+---
 
-### 53 Submission
+### MS53 Data Entry  
 
-Upload your source code (**Utils.cpp, Utils.h, Menu.h , Menu.cpp, Billable.h, Billable.cpp, Drink.h, Drink.cpp, Food.h, Food.cpp, Ordering.h, Ordering.cpp and main.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler [as shown in the introduction](#compiling-and-testing-your-program) and make sure that everything works properly.
+```text
+1 <ENTER>
+1 <ENTER>
+1 <ENTER>
+0 <ENTER>
+1 <ENTER>
+1 <ENTER>
+1 <ENTER>
+well done <ENTER>
+0 <ENTER>
+0 <ENTER> <-- this is the last execution line check by the submitter, you can exit the program anyway you like after this
+1 <ENTER>
+```  
 
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m53
-```
-and follow the instructions.
+---
 
-- *2??* is replaced with your subject code
+### MS53 Expected Output  
+
+[m53_correct_output.txt](prj/m53_correct_output.txt)  
+
+---
+
+### MS53 Submission Process  
+
+To submit your work:  
+
+1. **Upload Source Code**:  
+   Ensure you upload the following files to your `matrix` account:  
+   - **Utils.cpp, Utils.h**  
+   - **Menu.h, Menu.cpp**  
+   - **Billable.h, Billable.cpp**  
+   - **Drink.h, Drink.cpp**  
+   - **Food.h, Food.cpp**  
+   - **Ordering.h, Ordering.cpp**  
+   - **main.cpp**  
+   - **foods.csv, drinks.csv**  
+
+2. **Compile and Test**:  
+   Compile and run your code using the `g++` compiler as outlined in the [introduction](#compiling-and-testing-your-program). Ensure your program runs correctly and matches the expected output.  
+
+3. **Submit Your Work**:  
+   From your `matrix` account, run the following command (replace `profname.proflastname` with your professor’s Seneca user ID):  
+
+   ```bash
+   ~profname.proflastname/submit 2??/prj/m53
+   ```  
+   - *2??* is replaced with your subject code
+
+   Follow the instructions provided by the submission command.  
+
 
 ### The submit program's options:
 ```bash
@@ -1413,31 +1529,79 @@ and follow the instructions.
 ```
 
 ## [Back to MS5 Submission](#ms5-submission)
+
 
 
 ## MS54 Submission 
 
 **Display Bill**
 
-### 54 Data Entry
+---
 
-TBA
+### MS54 Tester Program  
 
-### 54 Expected output
+**No tester program**; use your own `main.cpp`.  
 
-TBA
+---
 
-### 54 Submission
+### MS54 Data Entry  
 
-Upload your source code (**Utils.cpp, Utils.h, Menu.h , Menu.cpp, Billable.h, Billable.cpp, Drink.h, Drink.cpp, Food.h, Food.cpp, Ordering.h, Ordering.cpp and main.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler [as shown in the introduction](#compiling-and-testing-your-program) and make sure that everything works properly.
+```text
+1 <ENTER>
+1 <ENTER>
+1 <ENTER>
+2 <ENTER>
+well done <ENTER>
+2 <ENTER>
+2 <ENTER>
+1 <ENTER>
+1 <ENTER>
+6 <ENTER>
+1 <ENTER>
+<ENTER>
+0 <ENTER>
+2 <ENTER>
+0 <ENTER> <-- this is the last execution line check by the submitter, you can exit the program anyway you like after this
+1 <ENTER>
 
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m54
-```
-and follow the instructions.
+```  
 
-- *2??* is replaced with your subject code
+---
+
+### MS54 Expected Output  
+
+[m54_correct_output.txt](prj/m54_correct_output.txt)  
+
+---
+
+### MS54 Submission Process  
+
+To submit your work:  
+
+1. **Upload Source Code**:  
+   Ensure you upload the following files to your `matrix` account:  
+   - **Utils.cpp, Utils.h**  
+   - **Menu.h, Menu.cpp**  
+   - **Billable.h, Billable.cpp**  
+   - **Drink.h, Drink.cpp**  
+   - **Food.h, Food.cpp**  
+   - **Ordering.h, Ordering.cpp**  
+   - **main.cpp**  
+   - **foods.csv, drinks.csv**  
+
+2. **Compile and Test**:  
+   Compile and run your code using the `g++` compiler as outlined in the [introduction](#compiling-and-testing-your-program). Ensure your program runs correctly and matches the expected output.  
+
+3. **Submit Your Work**:  
+   From your `matrix` account, run the following command (replace `profname.proflastname` with your professor’s Seneca user ID):  
+
+   ```bash
+   ~profname.proflastname/submit 2??/prj/m54
+   ```  
+   - *2??* is replaced with your subject code
+
+   Follow the instructions provided by the submission command.  
+
 
 ### The submit program's options:
 ```bash
@@ -1457,30 +1621,71 @@ and follow the instructions.
 ```
 
 ## [Back to MS5 Submission](#ms5-submission)
+
 
 ## MS55 Submission 
 
-**Reset Exit and Saved Bill**
+**Reset Exit and Save Bill Message**
 
-### 55 Data Entry
+---
 
-TBA
+### MS55 Tester Program  
 
-### 55 Expected output
+**No tester program**; use your own `main.cpp`.  
 
-TBA
+---
 
-### 55 Submission
+### MS55 Data Entry  
 
-Upload your source code (**Utils.cpp, Utils.h, Menu.h , Menu.cpp, Billable.h, Billable.cpp, Drink.h, Drink.cpp, Food.h, Food.cpp, Ordering.h, Ordering.cpp and main.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler [as shown in the introduction](#compiling-and-testing-your-program) and make sure that everything works properly.
+```text
+1 <ENTER>
+2 <ENTER>
+2 <ENTER>
+2 <ENTER>
+0 <ENTER>
+2 <ENTER>
+0 <ENTER>
+0 <ENTER>
+3 <ENTER>
+0 <ENTER>
+```  
 
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m55
-```
-and follow the instructions.
+---
 
-- *2??* is replaced with your subject code
+### MS55 Expected Output  
+
+[m55_correct_output.txt](prj/m55_correct_output.txt)  
+
+---
+
+### MS55 Submission Process 
+
+To submit your work:  
+
+1. **Upload Source Code**:  
+   Ensure you upload the following files to your `matrix` account:  
+   - **Utils.cpp, Utils.h**  
+   - **Menu.h, Menu.cpp**  
+   - **Billable.h, Billable.cpp**  
+   - **Drink.h, Drink.cpp**  
+   - **Food.h, Food.cpp**  
+   - **Ordering.h, Ordering.cpp**  
+   - **main.cpp**  
+   - **foods.csv, drinks.csv**  
+
+2. **Compile and Test**:  
+   Compile and run your code using the `g++` compiler as outlined in the [introduction](#compiling-and-testing-your-program). Ensure your program runs correctly and matches the expected output.  
+
+3. **Submit Your Work**:  
+   From your `matrix` account, run the following command (replace `profname.proflastname` with your professor’s Seneca user ID):  
+
+   ```bash
+   ~profname.proflastname/submit 2??/prj/m55
+   ```  
+   - *2??* is replaced with your subject code
+
+   Follow the instructions provided by the submission command.  
+
 
 ### The submit program's options:
 ```bash
@@ -1500,31 +1705,68 @@ and follow the instructions.
 ```
 
 ## [Back to MS5 Submission](#ms5-submission)
+
 
 
 ## MS56 Submission 
 
-**Fool-Proofing and Bad Data file**
+**Fool-Proofing and Bad Data File**
 
-### 56 Data Entry
+---
 
-TBA
+### MS56 Tester Program  
 
-### 56 Expected output
+**No tester program**; use your own `main.cpp`.  
 
-TBA
+---
 
-### 56 Submission
+### MS56 Data Entry  
 
-Upload your source code (**Utils.cpp, Utils.h, Menu.h , Menu.cpp, Billable.h, Billable.cpp, Drink.h, Drink.cpp, Food.h, Food.cpp, Ordering.h, Ordering.cpp and main.cpp**) to your `matrix` account. Compile and run your code using the `g++` compiler [as shown in the introduction](#compiling-and-testing-your-program) and make sure that everything works properly.
+```text
+<ENTER>
+-1 <ENTER>
+4 <ENTER>
+abc <ENTER>
+123abc <ENTER>
+0 <ENTER>
+```  
 
-Then, run the following command from your account (replace `profname.proflastname` with your professor’s Seneca userid):
-```
-~profname.proflastname/submit 2??/prj/m56
-```
-and follow the instructions.
+---
 
-- *2??* is replaced with your subject code
+### MS56 Expected Output  
+
+[m56_correct_output.txt](prj/m56_correct_output.txt)  
+
+---
+
+### MS56 Submission Process 
+
+To submit your work:  
+
+1. **Upload Source Code**:  
+   Ensure you upload the following files to your `matrix` account:  
+   - **Utils.cpp, Utils.h**  
+   - **Menu.h, Menu.cpp**  
+   - **Billable.h, Billable.cpp**  
+   - **Drink.h, Drink.cpp**  
+   - **Food.h, Food.cpp**  
+   - **Ordering.h, Ordering.cpp**  
+   - **ms56.cpp**  
+   - **foods.csv, drinks.csv**  
+
+2. **Compile and Test**:  
+   Compile and run your code using the `g++` compiler as outlined in the [introduction](#compiling-and-testing-your-program). Ensure your program runs correctly and matches the expected output.  
+
+3. **Submit Your Work**:  
+   From your `matrix` account, run the following command (replace `profname.proflastname` with your professor’s Seneca user ID):  
+
+   ```bash
+   ~profname.proflastname/submit 2??/prj/m56
+   ```  
+   - *2??* is replaced with your subject code
+
+   Follow the instructions provided by the submission command.  
+
 
 ### The submit program's options:
 ```bash
@@ -1544,3 +1786,43 @@ and follow the instructions.
 ```
 
 ## [Back to MS5 Submission](#ms5-submission)
+
+Your message is mostly clear but has a couple of small grammatical and formatting issues. Here’s the refined version:
+
+---
+
+# Project Reflection  
+
+## Reflection Submission (Optional)  
+
+The reflection submission is optional.  
+
+You can use it to:  
+- Share your thoughts about the project or provide feedback to your professor.  
+- Highlight any additional work or enhancements you have implemented that you would like your professor to notice.  
+
+Feel free to include any insights, challenges you faced, or suggestions for improving the project in future iterations.  
+
+---
+
+### Reflection Submission Process  
+
+1. **Write Your Reflection:**  
+   - Create a file named `reflect.txt` and include your reflection.  
+
+2. **Upload to Matrix:**  
+   - Upload your the reflection file to matrix
+   - Use the following command to submit your reflection:  
+
+     ```bash
+     ~profname.proflastname/submit 2??/prj/mref
+     ```  
+     - Replace **`2??`** with your subject code.  
+
+3. **Follow Instructions:**  
+   - Complete the submission process as prompted by the command.  
+
+---
+
+## [Back to MS5 Submission](#ms5-submission)  
+
