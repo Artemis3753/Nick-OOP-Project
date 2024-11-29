@@ -14,7 +14,7 @@ In this project, you will build an application that enables waiters to take cust
 | [MS2](#milestone-2) | V1.0 | open | [Video](https://youtu.be/3TFA6RT0O4U) |
 | [MS3](#milestone-3) | V1.1  | open<br />correct_output.txt corrected  | [Video](https://youtu.be/YqiOuSdU4zA) |
 | [MS4](#milestone-4) | V1.0  | open | [Video](https://youtu.be/n-hnBp8Otms) |
-| [MS5](#milestone-5-the-final-milestone) | V1.0 | Open |  |
+| [MS5](#milestone-5-the-final-milestone) | V1.0 | open | [Video](https://youtu.be/jBJkNrWciLQ) |
 
 For this project, you will develop an application that enables waiters to take customer orders for food and drinks, and generate a bill upon completion of the order.
 
@@ -69,7 +69,7 @@ Final Project Milestone ?
 Module: Whatever
 Filename: Whatever.cpp
 Version 1.0
-Author	John Doe
+Author   John Doe
 Revision History
 -----------------------------------------------------------
 Date      Reason
@@ -1787,9 +1787,6 @@ To submit your work:
 
 ## [Back to MS5 Submission](#ms5-submission)
 
-Your message is mostly clear but has a couple of small grammatical and formatting issues. Here’s the refined version:
-
----
 
 # Project Reflection  
 
