@@ -1716,7 +1716,7 @@ To submit your work:
 
 ### MS56 Tester Program  
 
-**No tester program**; use your own `main.cpp`.  
+[ms56.cpp](prj/ms56.cpp) 
 
 ---
 
